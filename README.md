@@ -67,7 +67,9 @@ Example: 0421 / 200 40, +49 421 200 40
  
 `It's obvious, but just to spell it out: For this question, you should think about different ways of writing down a phone number. It's not about trying to come up with as many phone number as you can.`
 
-**Answer:** Replace this text with your answer.
+**Answer:** 
+0421 / 200 40
++49 421 200 40
 
 
 #### Question 4b
@@ -76,4 +78,4 @@ Find a regular expression that matches all of the different phone number formats
  
 `Unless the way your regular expression works is obvious, please explain how it works.`
 
-**Answer:** Replace this text with your answer.
+**Answer:** /(\+49|0)?[ \/0-9]{8,13}/gm
